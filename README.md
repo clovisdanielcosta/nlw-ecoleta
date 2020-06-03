@@ -7,7 +7,7 @@
 </p>
 
 <h1 align="center">
-:small_red_triangle_down:  Marketplace para Resíduos Recicláveis
+:small_red_triangle_down:  Marketplace para Coleta Resíduos Recicláveis
 </h1>
 
 <h3 align="center">
