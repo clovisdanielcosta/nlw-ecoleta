@@ -11,5 +11,5 @@
 </h1>
 
 <h3 align="center">
-Bootcamp NLW-1 da Roketseat
+Bootcamp NLW-1 da Rocketseat
 </h3>s
