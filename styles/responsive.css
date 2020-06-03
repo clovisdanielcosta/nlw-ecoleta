@@ -1,0 +1,42 @@
+
+/* A propriedade midia abaixo depende de ter sido declarado a seguinte tag meta 
+     no iníio do html:
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    "@midia" estabelece um conjunto de regras para ajudar na responsividade em
+    dispositivos como tablets e smartphones.
+*/
+@media (max-width: 900px) { /* Quando a largura da tela for menor que "900px" aplica: */
+    #page-home {
+        background-position-x: 70vw;   
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: absolute; /* Empilha todos os elementos um em cima do outro */
+        bottom: 48px; /* Manda o outro elemento para o rodapé */
+
+        left: 50%;
+        transform: translateX(-50%); /* Ignora as definições anteriores do elemento no CSS normal */
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+}
+
+@media (min-width: 1700px) {
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 700px) {
+    #page-home {
+        background-position-y: 200px;
+    }
+}
