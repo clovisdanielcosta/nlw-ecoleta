@@ -2,7 +2,9 @@
   <img alt="Em Obras" src="assets/em-obras.png" width="75%">
 </p>
 
-<img alt="Em Obras" src="assets/logo.svg" width="50%">
+<p align="center">
+  <img alt="Em Obras" src="assets/logo.svg" width="30%">
+</p>
 
 <h1 align="center">
 :small_red_triangle_down:  Marketplace para Resíduos Recicláveis
