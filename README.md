@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img alt="Em Obras" src="assets/logo.svg" width="30%">
+  <img alt="Em Obras" src="public/assets/logo.svg" width="30%">
 </p>
 
 <h1 align="center">
