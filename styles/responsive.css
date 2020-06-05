@@ -27,6 +27,14 @@
     #page-home main {
         align-items: center;
     }
+
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img {
+        height: 250px;
+    }
 }
 
 @media (min-width: 1700px) {
@@ -35,7 +43,7 @@
     }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 760px) {
     #page-home {
         background-position-y: 200px;
     }
