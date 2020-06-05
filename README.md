@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Em Obras" src="assets/em-obras.png" width="75%">
+  <img alt="Em Obras" src="utils/img/em-obras.png" width="75%">
 </p>
 
 <p align="center">
