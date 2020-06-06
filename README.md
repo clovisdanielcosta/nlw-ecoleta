@@ -6,10 +6,10 @@
   <img alt="Em Obras" src="public/assets/logo.svg" width="30%">
 </p>
 
-<h1 align="center">
+<h3 align="center">
 :small_red_triangle_down: :small_red_triangle_down: :small_red_triangle_down: 
 Alterações em andamento na branch "Customize".
-</h1>
+</h3>
 
 <h1 align="center">
 :small_red_triangle_down:  Marketplace para Coleta de Resíduos Recicláveis
