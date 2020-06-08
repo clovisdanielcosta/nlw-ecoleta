@@ -14,6 +14,14 @@
     align-items: center;
 }
 
+#page-create-point header img {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
 #page-create-point header a {
     color: var(--title-color);
     font-weight: bold;
@@ -195,6 +203,15 @@ form button:hover {
 /* ################################## */
 /* DARK MODE */
 /* ################################## */
+
+body[dark] > #page-create-point header img {
+    background-color: var(--logo-bkg);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
 
 body[dark] > #page-create-point header a {
     color: var(--dk-title-color);

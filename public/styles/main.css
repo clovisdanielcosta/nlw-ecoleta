@@ -11,8 +11,8 @@
     --modal-bkg-color: rgba(0, 0, 0, 0.08); /* RGB Alfa "rgba(0red, green, blue, alpha);"*/
     --modal-txt-color: white;
 
-    --form-bkg-color: #e8e8f3;
-    --input-txt-color: #6c6c80;
+    --form-bkg-color: #e1e1ec;
+    --input-txt-color: #5e5e75;
   
     --btn-txt-color: white;
     --btn-brd-color: #b9f7c8;
@@ -20,7 +20,7 @@
   
     --grid-li-bkg-color: #e3ffef;
     --grid-li-brd-color: #b9f7c8;
-    --grid-li-bkg-sel-color: #dff8ea;
+    --grid-li-bkg-sel-color: #c9f7dd;
     --grid-li-brd-sel-color: #61ce94;
 
     /* ################################## */
@@ -29,21 +29,21 @@
 
     --dk-primary-color: #34cb79; /* Cor padrão do botão */
     --dk-bkg-color: #070707;
-    --dk-after-bkg-color:rgb(102, 100, 11);
-    --dk-title-color: #ecf0e3; /* Atalho para cores do sistema  */
+    --dk-after-bkg-color:rgb(255, 255, 255);
+    --dk-title-color: #ffffff; /* Atalho para cores do sistema  */
     --dk-txt-color: rgb(228, 231, 223);
 
-    --dk-modal-bkg-color: rgba(0, 0, 0, 0.08); /* RGB Alfa "rgba(0red, green, blue, alpha);"*/
+    --dk-modal-bkg-color: rgba(2, 2, 2, 0.08); /* RGB Alfa "rgba(0red, green, blue, alpha);"*/
     --dk-modal-txt-color: white;
 
-    --dk-form-bkg-color: #f3efe8;
-    --dk-input-txt-color: #daf10a;
+    --dk-form-bkg-color: #716a72;
+    --dk-input-txt-color: #000000;
   
     --dk-btn-txt-color: white;
     --dk-btn-brd-color: #b9f7c8;
     --dk-btn-hover-color: #2fb85e;
   
-    --dk-grid-li-bkg-color: #e1faec;
+    --dk-grid-li-bkg-color: #e1faf0;
     --dk-grid-li-brd-color: #b9f7c8;
     --dk-grid-li-bkg-sel-color: #cdf8df;
     --dk-grid-li-brd-sel-color: #2fb86e;
