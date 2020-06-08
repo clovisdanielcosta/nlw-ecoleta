@@ -5,6 +5,7 @@
     --after-bkg-color:white;
     --title-color: #322153; /* Atalho para cores do sistema */
     --txt-color: black;
+    --logo-words: #322153;
 
     --modal-bkg-color: rgba(0, 0, 0, 0.08); /* RGB Alfa "rgba(0red, green, blue, alpha);"*/
     --modal-txt-color: white;
@@ -25,17 +26,17 @@
     /* Cores modo Dark */
     /* ################################## */
 
-    --dk-primary-color: #d7e612; /* Cor padrão do botão */
-    --dk-bkg-color: #bba31e;
+    --dk-primary-color: #34cb79; /* Cor padrão do botão */
+    --dk-bkg-color: #070707;
     --dk-after-bkg-color:rgb(102, 100, 11);
-    --dk-title-color: #ecf0e3; /* Atalho para cores do sistema */
+    --dk-title-color: #ecf0e3; /* Atalho para cores do sistema  */
     --dk-txt-color: rgb(228, 231, 223);
 
     --dk-modal-bkg-color: rgba(0, 0, 0, 0.08); /* RGB Alfa "rgba(0red, green, blue, alpha);"*/
     --dk-modal-txt-color: white;
 
-    --dk-form-bkg-color: #e8e8f3;
-    --dk-input-txt-color: #6c6c80;
+    --dk-form-bkg-color: #f3efe8;
+    --dk-input-txt-color: #daf10a;
   
     --dk-btn-txt-color: white;
     --dk-btn-brd-color: #b9f7c8;

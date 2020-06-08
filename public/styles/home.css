@@ -58,6 +58,7 @@
     font-size: 24px;
     line-height: 38px;/* Define a altura da linha do texto */
     margin-top: 24px;
+    color: var(--txt-color);
 }
 
 #page-home main a {
@@ -113,10 +114,16 @@
 /* DARK MODE */
 /* ################################## */
 
+body[dark] > #page-home header img {
+    background-color: var(--form-bkg-color);
+    padding: 3px;
+    border-radius: 0 10px 0 10px;
+}
+
 body[dark] > #page-home header a {
     margin-top: 48px; /* margem superior */
     display: flex; /* alinha horizontalmente os elementos */
-    color: var(--dk-title-color);
+    color: var(--dk-txt-color);
     font-weight: 700;
 }
 
@@ -159,4 +166,12 @@ body[dark] > #page-home main a strong {
     flex: 1; /* Para fazer preencher toda a caixa */
 
     text-align: center; /* Alinhando o texto dentro do strong */
+}
+
+
+body[dark] > #page-home main p {
+    font-size: 24px;
+    line-height: 38px;/* Define a altura da linha do texto */
+    margin-top: 24px;
+    color: var(--dk-txt-color);
 }
