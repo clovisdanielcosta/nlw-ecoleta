@@ -17,13 +17,20 @@
     </head>
     <body>
 
+    <label id= "dk-label" for="input-dark-mode">
+        <a class="button">&#128161;Modo Dark</a>
+    </label>
+    <input type="checkbox" id="input-dark-mode">
+
         <div id="{{ pageId }}">
             {% block content %}{% endblock content %}
         </div>
 
         {% block modal %}{% endblock modal %}
 
-        {% block script %}{% endblock script %}
+        {% block script %}
+            <script src="/scripts/dark.js"></script>
+        {% endblock script %}
 
     </body>
 </html>

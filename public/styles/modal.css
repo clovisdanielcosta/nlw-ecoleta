@@ -1,6 +1,6 @@
 #modal {
     background-color: #0E0A14ef; /* O "ef" é o alfa permite variar
-                                    a cor para dar a impressão de transparência */
+    a cor para dar a impressão de transparência */
     height: 100vh;
     width: 100vw;
 
@@ -20,7 +20,7 @@ display: none;
 }
 
 #modal .content {
-    color: white;
+    color: var(--modal-txt-color);
 
     width: 420px;
 }
@@ -44,7 +44,7 @@ display: none;
 }
 
 #modal .header h1 {
-    color: white;
+    color: var(--modal-txt-color);
 
     font-size: 36px;
     line-height: 42px;
@@ -65,7 +65,7 @@ display: none;
 #modal form input {
     flex: 1;
 
-    background-color: #f0f0f5;
+    background-color: var(--modal-txt-color);
 
     border-radius: 8px 0 0 8px;
     border: 0;
@@ -73,7 +73,7 @@ display: none;
     padding: 16px 24px;
 
     font-size: 16px;
-    color: #6c6c80;
+    color: var(--input-txt-color);
 }
 
 #modal form button {
@@ -87,7 +87,7 @@ display: none;
 }
 
 #modal form button:hover {
-    background-color: #2fb85e;
+    background-color: var(--btn-hover-color);
 }
 
 /* Esta estilização é para o modal do point-created.html */
@@ -98,7 +98,59 @@ display: none;
 } 
 
 #modal.point h1 {
-    color: white;
+    color: var(--modal-txt-color);
+
+    margin-top: 32px;
+}
+
+/* ################################## */
+/* DARK MODE */
+/* ################################## */
+
+
+body[dark] > #modal .content {
+    color: var(--dk-modal-txt-color);
+
+    width: 420px;
+}
+
+body[dark] > #modal .header h1 {
+    color: var(--dk-modal-txt-color);
+
+    font-size: 36px;
+    line-height: 42px;
+}
+
+body[dark] > #modal form input {
+    flex: 1;
+
+    background-color: var(--dk-modal-txt-color);
+
+    border-radius: 8px 0 0 8px;
+    border: 0;
+
+    padding: 16px 24px;
+
+    font-size: 16px;
+    color: var(--dk-input-txt-color);
+}
+
+body[dark] > #modal form button {
+    width: 72px;
+    height: 72px;
+
+    background-color: var(--dk-primary-color);
+
+    border: 0;
+    border-radius: 0 8px 8px 0;
+}
+
+body[dark] > #modal form button:hover {
+    background-color: var(--dk-btn-hover-color);
+}
+
+body[dark] > #modal.point h1 {
+    color: var(--dk-modal-txt-color);
 
     margin-top: 32px;
 }

@@ -1,6 +1,52 @@
 :root { /* Seletor para referenciar a raiz da aplicação e usar variáveis */
-    --title-color: #322153; /* Atalho para cores do sistema */
+    /* Cores modo Light */
     --primary-color: #34cb79; /* Cor padrão do botão */
+    --bkg-color: #f0f0f5;
+    --after-bkg-color:white;
+    --title-color: #322153; /* Atalho para cores do sistema */
+    --txt-color: black;
+
+    --modal-bkg-color: rgba(0, 0, 0, 0.08); /* RGB Alfa "rgba(0red, green, blue, alpha);"*/
+    --modal-txt-color: white;
+
+    --form-bkg-color: #e8e8f3;
+    --input-txt-color: #6c6c80;
+  
+    --btn-txt-color: white;
+    --btn-brd-color: #b9f7c8;
+    --btn-hover-color: #2fb85e;
+  
+    --grid-li-bkg-color: #e1faec;
+    --grid-li-brd-color: #b9f7c8;
+    --grid-li-bkg-sel-color: #cdf8df;
+    --grid-li-brd-sel-color: #2fb86e;
+
+    /* ################################## */
+    /* Cores modo Dark */
+    /* ################################## */
+
+    --dk-primary-color: #d7e612; /* Cor padrão do botão */
+    --dk-bkg-color: #bba31e;
+    --dk-after-bkg-color:rgb(102, 100, 11);
+    --dk-title-color: #ecf0e3; /* Atalho para cores do sistema */
+    --dk-txt-color: rgb(228, 231, 223);
+
+    --dk-modal-bkg-color: rgba(0, 0, 0, 0.08); /* RGB Alfa "rgba(0red, green, blue, alpha);"*/
+    --dk-modal-txt-color: white;
+
+    --dk-form-bkg-color: #e8e8f3;
+    --dk-input-txt-color: #6c6c80;
+  
+    --dk-btn-txt-color: white;
+    --dk-btn-brd-color: #b9f7c8;
+    --dk-btn-hover-color: #2fb85e;
+  
+    --dk-grid-li-bkg-color: #e1faec;
+    --dk-grid-li-brd-color: #b9f7c8;
+    --dk-grid-li-bkg-sel-color: #cdf8df;
+    --dk-grid-li-brd-sel-color: #2fb86e;
+
+
 }
 
 * { /* Seletor para manipular todos os elemontos da aplicação */
@@ -14,7 +60,7 @@ html {
 }
 
 body {
-    background: #f0f0f5;
+    background: var(--bkg-color); /* #daa514 */ 
     -webkit-font-smoothing: antialiased; /* Torna a fonte mais agrável de se ver */
 }
 
@@ -25,4 +71,30 @@ a {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu', sans-serif;
     color: var(--title-color);
+}
+
+#dk-label {
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* ################################## */
+/* DARK MODE */
+/* ################################## */
+
+body[dark] {
+    background: var(--dk-bkg-color);/*   #e0e016; */
+    -webkit-font-smoothing: antialiased; /* Torna a fonte mais agrável de se ver */
+}
+
+body[dark] h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--dk-title-color);
+}
+
+body[dark] > #dk-label a {
+    color: var(--dk-txt-color); /* darkorange */ 
+    font-size: 14px;
+    font-weight: bold;
 }
