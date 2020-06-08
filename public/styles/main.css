@@ -5,6 +5,7 @@
     --after-bkg-color:white;
     --title-color: #322153; /* Atalho para cores do sistema */
     --txt-color: black;
+    --logo-bkg:  #bebdc2;
     --logo-words: #322153;
 
     --modal-bkg-color: rgba(0, 0, 0, 0.08); /* RGB Alfa "rgba(0red, green, blue, alpha);"*/
@@ -17,10 +18,10 @@
     --btn-brd-color: #b9f7c8;
     --btn-hover-color: #2fb85e;
   
-    --grid-li-bkg-color: #e1faec;
+    --grid-li-bkg-color: #e3ffef;
     --grid-li-brd-color: #b9f7c8;
-    --grid-li-bkg-sel-color: #cdf8df;
-    --grid-li-brd-sel-color: #2fb86e;
+    --grid-li-bkg-sel-color: #dff8ea;
+    --grid-li-brd-sel-color: #61ce94;
 
     /* ################################## */
     /* Cores modo Dark */

@@ -22,6 +22,14 @@
     justify-content: space-between; /* Justifica os elementos de dentro com um espaço entre eles */
 }
 
+#page-home header img {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
 #page-home header a {
     margin-top: 48px; /* margem superior */
     display: flex; /* alinha horizontalmente os elementos */
@@ -115,9 +123,12 @@
 /* ################################## */
 
 body[dark] > #page-home header img {
-    background-color: var(--form-bkg-color);
-    padding: 3px;
-    border-radius: 0 10px 0 10px;
+    background-color: var( --logo-bkg);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
 }
 
 body[dark] > #page-home header a {
