@@ -30,7 +30,7 @@ O objetivo deste projeto é criar um site para conectar pessoas que precisam se 
 </p>
 
 <p align="center">
-  <img alt="Ecoleta" src="utils/img/ecoleta.webm" width="50%">
+  <img alt="Ecoleta" src="utils/img/nlw-ecoleta.gif" width="50%">
 </p>
 
 ## :cloud: Deploy
