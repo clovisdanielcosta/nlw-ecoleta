@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if(darkModeStorage){
         html.setAttribute("dark", "true")
+        inputDarkMode.setAttribute("checked", "true")
     }
 
     inputDarkMode.addEventListener('change', () => {

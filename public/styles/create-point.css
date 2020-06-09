@@ -53,6 +53,7 @@ form {
 
 form h1 {
     font-size: 36px;
+    color: var(--txt-color);
 }
 
 form fieldset {
@@ -73,6 +74,7 @@ form legend {
 
 form legend h2 {
     font-size: 24px;
+    color: var(--txt-color);
 }
 
 form legend span {
@@ -122,6 +124,7 @@ form select {
 form label {
     font-size: 14px;
     margin-bottom: 8px;
+    color: var(--txt-color);
 }
 
 form .field-group .field + .field {
@@ -238,7 +241,7 @@ body[dark] form legend span {
 }
 
 body[dark] form input {
-    background-color: var(--dk-after-bkg-color);
+    background-color: var(--logo-bkg);
     
     border: 0;
     padding: 16px 24px;
@@ -248,7 +251,7 @@ body[dark] form input {
 }
 
 body[dark] form select {
-    background-color: var(--dk-after-bkg-color);
+    background-color: var(--logo-bkg);
     
     border: 0;
     padding: 16px 24px;
@@ -319,4 +322,20 @@ body[dark] > .items-grid li span {
 body[dark] > .items-grid li.selected {
     background: var(--dk-grid-li-bkg-sel-color);
     border: 2px solid var(--dk-grid-li-brd-sel-color);
+}
+
+body[dark] form h1 {
+    font-size: 36px;
+    color: var(--dk-txt-color);
+}
+
+body[dark] form legend h2 {
+    font-size: 24px;
+    color: var(--dk-txt-color);
+}
+
+body[dark] form label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: var(--dk-txt-color);
 }
