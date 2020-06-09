@@ -1,3 +1,6 @@
+body {
+    background-color: var(--form-bkg-color);
+}
 #page-create-point {
     width: 90%;
     max-width: 1100px;
@@ -41,7 +44,7 @@
 }
 
 form {
-    background-color: var(--form-bkg-color);
+    background-color: var(--after-bkg-color);
 
     margin: 80px auto;
     padding: 64px;
@@ -95,7 +98,7 @@ form .field-group {
 }
 
 form input {
-    background-color: var(--after-bkg-color);
+    background-color: var(--form-bkg-color);
     
     border: 0;
     padding: 16px 24px;
@@ -105,7 +108,7 @@ form input {
 }
 
 form select {
-    background-color: var(--after-bkg-color);
+    background-color: var(--form-bkg-color);
     
     border: 0;
     padding: 16px 24px;
@@ -271,10 +274,10 @@ body[dark] form button {
     width: 260px;
     height: 56px;
 
-    background-color: var(--dk-primary-color);
+    background-color: var(--primary-color);
     border-radius: 8px;
 
-    color: var(--dk-bkg-color);
+    color: var(--bkg-color);
     font-weight: bold;
     font-size: 16px;
 
