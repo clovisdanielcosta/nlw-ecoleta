@@ -25,8 +25,8 @@ O objetivo deste projeto é criar um site para conectar pessoas que precisam se 
   <a href="#books-aprendendo">Aprendendo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#small_orange_diamond-contribuindo">Contribuindo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#small_orange_diamond-customizando">Customizando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#small_orange_diamond-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#small_orange_diamond-trello">Trello</a>
+  <a href="#small_orange_diamond-trello">Trello</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#small_orange_diamond-licença">Licença</a>
 </p>
 
 <p align="center">
@@ -76,7 +76,7 @@ Nesse projeto foram usadas as seguintes tecnologias:
 
 - Entendendo melhor o conceito de projeto Full MVC envolvendo Back-end e 
   Front-end na mesma aplicação.
-- Aprendendo a usar Nunkucks para template engine que tornam as páginas html mais
+- Aprendendo a usar Nunjucks para template engine que tornam as páginas html mais
   dinâmicas, aceitando variáveis e inserção de layouts padrão dos ítens que se
   repetem.
 
@@ -96,7 +96,7 @@ Nesse projeto foram usadas as seguintes tecnologias:
 ## :small_orange_diamond: Customizando
 
 1. Uso de variáveis no CSS em todo o projeto para facilitar a estilização.
-2. Implementação de tema DARK MODE para maior conforto visual.
+2. Implementação de tema <b>DARK MODE</b> para maior conforto visual.
 
 ## :small_orange_diamond: Licença
 
