@@ -30,15 +30,7 @@ O objetivo deste projeto é criar um site para conectar pessoas que precisam se 
 </p>
 
 <p align="center">
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <img alt="Ecoleta" src="utils/img/ecoleta-nlw.gif" width="50%">
-=======
-  <img alt="Ecoleta" src="utils/img/nlw-ecoleta.gif" width="50%">
->>>>>>> 0659bd5512e1f40cf71fecaf9d4c8faa2e10e72a
-=======
-  <img alt="Ecoleta" src="utils/img/nlw-ecoleta.gif" width="50%">
->>>>>>> 0659bd5512e1f40cf71fecaf9d4c8faa2e10e72a
+  <img alt="Ecoleta" src="utils/img/nlw-ecoleta.gif" width="100%">
 </p>
 
 ## :cloud: Deploy
