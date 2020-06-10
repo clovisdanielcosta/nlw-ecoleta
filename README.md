@@ -31,7 +31,11 @@ O objetivo deste projeto é criar um site para conectar pessoas que precisam se 
 
 <p align="center">
 <<<<<<< HEAD
+<<<<<<< HEAD
   <img alt="Ecoleta" src="utils/img/ecoleta-nlw.gif" width="50%">
+=======
+  <img alt="Ecoleta" src="utils/img/nlw-ecoleta.gif" width="50%">
+>>>>>>> 0659bd5512e1f40cf71fecaf9d4c8faa2e10e72a
 =======
   <img alt="Ecoleta" src="utils/img/nlw-ecoleta.gif" width="50%">
 >>>>>>> 0659bd5512e1f40cf71fecaf9d4c8faa2e10e72a
@@ -120,3 +124,4 @@ Também agradeço ao Gabriel Oliveira do site <b>OhMyCode</b> (nome fantástico!
 Parabéns pelo trabalho de vocês. 
 
 Muito obrigado!:clap::clap:
+
