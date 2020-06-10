@@ -15,7 +15,7 @@ Bootcamp NLW-1 da Rocketseat
 </p>
 
 <p>
-O objetivo deste projeto é criar um site para conectar pessoas que precisam se livrar de seus recicláveis com pessoas ou empresas que trabalham com reciclagem, contribuindo assim para um ecossistema mais sustentável. É um desafio prático da Semana NLW (Next Level Week) promovida pela <b>Rocketseat</b> com o objetivo de acelerar a performance de desenvolvedores na Stack JavaScript + NodeJS.
+O objetivo deste projeto é criar um site para conectar pessoas que precisam se livrar de seus resíduos recicláveis com pessoas ou empresas que trabalham com reciclagem, contribuindo assim para um ecossistema mais sustentável. É um desafio prático da Semana NLW (Next Level Week) promovida pela <b>Rocketseat</b> com o objetivo de acelerar a performance de desenvolvedores na Stack JavaScript + NodeJS.
 </p>
 
 <p align="center">
