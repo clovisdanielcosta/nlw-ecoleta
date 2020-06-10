@@ -37,7 +37,7 @@ O objetivo deste projeto é criar um site para conectar pessoas que precisam se 
   
 Foi usado o servidor da AWS para o pipeline com o GitHub e o deploy da aplicação. Para testar a aplicação acesse:
 
-- [https://cd-snake-game.herokuapp.com/](https://cd-snake-game.herokuapp.com/)
+- [https://](https://)
 
 ## :rocket: Tecnologias
 
