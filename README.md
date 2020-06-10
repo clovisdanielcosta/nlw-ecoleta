@@ -98,16 +98,16 @@ Nesse projeto foram usadas as seguintes tecnologias:
 1. Uso de variáveis no CSS em todo o projeto para facilitar a estilização.
 2. Implementação de tema <b>DARK MODE</b> para maior conforto visual.
 
-## :small_orange_diamond: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-A(s) imagem(s) usada(s) neste projeto são originais do autor ou foram obtidas através do site da Pexels com a devida autorização para uso gratuito.
-
 ## :small_orange_diamond: Trello
 
 <p align="center">
   <img alt="Trello" src="utils/img/trello-ecoleta.png" width="100%">
 </p>
+
+## :small_orange_diamond: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+A(s) imagem(s) usada(s) neste projeto são originais do autor ou foram obtidas através do site da Pexels com a devida autorização para uso gratuito.
 
 ## :small_orange_diamond: Agradecimentos
 
