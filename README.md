@@ -19,7 +19,6 @@ O objetivo deste projeto é criar um site para conectar pessoas que precisam se 
 </p>
 
 <p align="center">
-  <a href="#cloud-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-instalando">Instalando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-aprendendo">Aprendendo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -32,12 +31,6 @@ O objetivo deste projeto é criar um site para conectar pessoas que precisam se 
 <p align="center">
   <img alt="Ecoleta" src="utils/img/nlw-ecoleta.gif" width="100%">
 </p>
-
-## :cloud: Deploy
-  
-Foi usado o servidor da AWS para o pipeline com o GitHub e o deploy da aplicação. Para testar a aplicação acesse:
-
-- [https://](https://)
 
 ## :rocket: Tecnologias
 
