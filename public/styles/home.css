@@ -22,10 +22,18 @@
     justify-content: space-between; /* Justifica os elementos de dentro com um espaço entre eles */
 }
 
+#page-home header img {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
 #page-home header a {
     margin-top: 48px; /* margem superior */
     display: flex; /* alinha horizontalmente os elementos */
-    color: var(--title-color);
+    color: var(--txt-color);
     font-weight: 700;
 }
 
@@ -58,6 +66,7 @@
     font-size: 24px;
     line-height: 38px;/* Define a altura da linha do texto */
     margin-top: 24px;
+    color: var(--txt-color);
 }
 
 #page-home main a {
@@ -76,7 +85,7 @@
 }
 
 #page-home main a:hover { /* Permite alterações de estilo ao passar do mouse */
-    background-color: #2fb86e;
+    background-color:var(--btn-hover-color);
 }
 
 #page-home main a span {
@@ -86,7 +95,7 @@
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 
-    background-color: rgba(0, 0, 0, 0.08); /* RGB Alfa "rgba(0red, green, blue, alpha);"*/
+    background-color:var(--primary-color);
 
     /* Estilizações que afetam o "::after" */
     display: flex;
@@ -103,8 +112,77 @@
 }
 
 #page-home main a strong {
-    color: white;
+    color: var(--btn-txt-color);
     flex: 1; /* Para fazer preencher toda a caixa */
 
     text-align: center; /* Alinhando o texto dentro do strong */
+}
+
+/* ################################## */
+/* DARK MODE */
+/* ################################## */
+
+body[dark] > #page-home header img {
+    background-color: var( --logo-bkg);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+body[dark] > #page-home header a {
+    margin-top: 48px; /* margem superior */
+    display: flex; /* alinha horizontalmente os elementos */
+    color: var(--dk-txt-color);
+    font-weight: 700;
+}
+
+body[dark] > #page-home main a {
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+
+    border-radius: 8px; /* Atalho para arredondar todas as bordas ao mesmo tempo*/
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+
+    background-color: var(--dk-primary-color);
+    transition: 400ms; /* Duração das mudanças do hover */
+}
+
+body[dark] > #page-home main a:hover { /* Permite alterações de estilo ao passar do mouse */
+    background-color:var(--dk-btn-hover-color);
+}
+
+body[dark] > #page-home main a span {
+    width: 72px;
+    height: 72px;
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+    background-color:var(--dk-modal-bkg-color);
+
+    /* Estilizações que afetam o "::after" */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body[dark] > #page-home main a strong {
+    color: var(--dk-btn-txt-color);
+    flex: 1; /* Para fazer preencher toda a caixa */
+
+    text-align: center; /* Alinhando o texto dentro do strong */
+}
+
+
+body[dark] > #page-home main p {
+    font-size: 24px;
+    line-height: 38px;/* Define a altura da linha do texto */
+    margin-top: 24px;
+    color: var(--dk-txt-color);
 }

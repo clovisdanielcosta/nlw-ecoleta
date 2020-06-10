@@ -1,3 +1,6 @@
+body {
+    background-color: var(--form-bkg-color);
+}
 #page-create-point {
     width: 90%;
     max-width: 1100px;
@@ -12,6 +15,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#page-create-point header img {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
 }
 
 #page-create-point header a {
@@ -33,7 +44,7 @@
 }
 
 form {
-    background-color: white;
+    background-color: var(--after-bkg-color);
 
     margin: 80px auto;
     padding: 64px;
@@ -45,6 +56,7 @@ form {
 
 form h1 {
     font-size: 36px;
+    color: var(--txt-color);
 }
 
 form fieldset {
@@ -65,6 +77,7 @@ form legend {
 
 form legend h2 {
     font-size: 24px;
+    color: var(--txt-color);
 }
 
 form legend span {
@@ -84,9 +97,18 @@ form .field-group {
     display: flex;
 }
 
-form input,
+form input {
+    background-color: var(--form-bkg-color);
+    
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    outline: var(--primary-color);
+}
+
 form select {
-    background-color: #f0f0f5;
+    background-color: var(--form-bkg-color);
     
     border: 0;
     padding: 16px 24px;
@@ -96,9 +118,7 @@ form select {
      saber que está no campo*/
 
      border-radius: 8px;
-}
 
-form select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -107,6 +127,7 @@ form select {
 form label {
     font-size: 14px;
     margin-bottom: 8px;
+    color: var(--txt-color);
 }
 
 form .field-group .field + .field {
@@ -120,7 +141,7 @@ form button {
     background-color: var(--primary-color);
     border-radius: 8px;
 
-    color: white;
+    color: var(--bkg-color);
     font-weight: bold;
     font-size: 16px;
 
@@ -132,7 +153,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #2fb86e;
+    background-color: var(--btn-hover-color);
 }
 
 .items-grid {
@@ -146,10 +167,10 @@ form button:hover {
 }
 
 .items-grid li {
-    background-color: #f5f5f5;
+    background-color: var(--grid-li-bkg-color);
     list-style: none; /* Tira o marcador da lista */
 
-    border: 2px solid #f5f5f5;
+    border: 2px solid var(--grid-li-brd-color);
     border-radius: 8px;
     height: 180px;
     padding: 32px 24px 16px;
@@ -176,11 +197,148 @@ form button:hover {
 
 /* Estilizando uma classe dentro de um elemento */
 .items-grid li.selected {
-    background: #e1faec;
-    border: 2px solid #34cb79;
+    background: var(--grid-li-bkg-sel-color);
+    border: 2px solid var(--grid-li-brd-sel-color);
 }
 
 .items-grid li img,
 .items-grid li span {
     pointer-events: none;
+}
+
+/* ################################## */
+/* DARK MODE */
+/* ################################## */
+
+body[dark] > #page-create-point header img {
+    background-color: var(--logo-bkg);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+body[dark] > #page-create-point header a {
+    color: var(--dk-title-color);
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+}
+
+body[dark] form {
+    background-color: var(--dk-form-bkg-color);
+
+    margin: 80px auto;
+    padding: 64px;
+
+    border-radius: 8px;
+    
+    max-width: 730px;
+}
+
+body[dark] form legend span {
+    font-size: 14px;
+    color: var(--dk-title-color);
+}
+
+body[dark] form input {
+    background-color: var(--logo-bkg);
+    
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    outline: var(--dk-primary-color);
+}
+
+body[dark] form select {
+    background-color: var(--logo-bkg);
+    
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    
+    /* outline: none;  Marca a linha de fora do input para o usuário
+     saber que está no campo*/
+
+     border-radius: 8px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+body[dark] form button {
+    width: 260px;
+    height: 56px;
+
+    background-color: var(--primary-color);
+    border-radius: 8px;
+
+    color: var(--bkg-color);
+    font-weight: bold;
+    font-size: 16px;
+
+    border: 0;
+
+    margin-top: 40px;
+
+    transition: background-color 400ms;
+}
+
+body[dark] form button:hover {
+    background-color: var(--dk-btn-hover-color);
+}
+
+body[dark] > .items-grid li {
+    background-color: var(--dk-grid-li-bkg-color);
+    list-style: none; /* Tira o marcador da lista */
+
+    border: 2px solid var(--dk-grid-li-brd-color);
+    border-radius: 8px;
+    height: 180px;
+    padding: 32px 24px 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+body[dark] > .items-grid li span {
+    margin-top: 12px;
+
+    flex: 1;
+    display: fle;
+    align-items: center;
+
+    color: var(--dk-title-color);
+}
+
+/* Estilizando uma classe dentro de um elemento */
+body[dark] > .items-grid li.selected {
+    background: var(--dk-grid-li-bkg-sel-color);
+    border: 2px solid var(--dk-grid-li-brd-sel-color);
+}
+
+body[dark] form h1 {
+    font-size: 36px;
+    color: var(--dk-txt-color);
+}
+
+body[dark] form legend h2 {
+    font-size: 24px;
+    color: var(--dk-txt-color);
+}
+
+body[dark] form label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: var(--dk-txt-color);
 }

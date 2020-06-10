@@ -8,7 +8,8 @@ const db = new sqlite3.Database("./src/database/database.db")
 db.serialize( () => {
 
     // Deletando um registro da tabela
-    db.run(`DELETE FROM places WHERE id = ?`, [16], function (err) {
+    //db.run(`DELETE FROM places WHERE id = ?`, [1256], function (err) {
+    db.run(`DELETE FROM places`, function (err) {
         if (err) {
             return console.log(err)
         }
