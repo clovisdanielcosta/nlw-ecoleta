@@ -106,7 +106,8 @@ server.get("/search", (req, res) => {
 })
 
 // Subindo o servidor
-server.listen(3001)
+//server.listen(3001)
+server.listen(process.env.PORT || 3001)
 console.log("Listen port:3001")
 
 
