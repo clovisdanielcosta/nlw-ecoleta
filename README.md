@@ -58,19 +58,24 @@ Nesse projeto foram usadas as seguintes tecnologias:
    [Instalando o NodeJS no Windows](https://github.com/clovisdanielcosta/nodejs/)
 
 2. Faça o clone deste repositório numa pasta desejada:
-  `$ git clone https://github.com/clovisdanielcosta/nlw-ecoleta.git`
+
+    `$ git clone https://github.com/clovisdanielcosta/nlw-ecoleta.git`
 
 3. Entre na pasta do app:
-  `$ cd nlw-ecoleta`
+  
+    `$ cd nlw-ecoleta`
 
 4. Rode este comando para instalar as dependências:
-  `$ npm install`
+  
+    `$ npm install`
 
 5. Rode este comando para subir o servidor Node:
-  `$ npm start`
+  
+    `$ npm start`
 
 6. Na barra de endereço de um navegador digite:
-  `$ localhost:3001`
+  
+    `$ localhost:3001`
 
 ## :books: Aprendendo
 
